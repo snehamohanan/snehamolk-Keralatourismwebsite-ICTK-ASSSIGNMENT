@@ -1,0 +1,45 @@
+*{
+    padding:2;
+    margin:2;
+}
+.bm{
+    background-image:url("C:\Users\user\Desktop\ICT\IMAGES\district\theyyam.jpg");
+    
+}
+/* form */
+label{  
+    color:green;  
+    font-size: 18px;  
+}
+
+.login{
+   float:none;
+   border: 2px green;
+   height: 10cm;
+   width: 10cm;
+   margin-top: 10%;
+   margin-left: 50%;
+}
+
+.login-cont{  
+    width: 500px;  
+    height: 50px;  
+    border:green;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+.login-button{  
+    width: 1000px;  
+    height: 100px;  
+    border:rgb(0, 88, 139) ; 
+    border-radius: 25px;  
+    padding-left: 10px;  
+    color:tomato;
+}
+.logo {
+    
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 10px;
+}

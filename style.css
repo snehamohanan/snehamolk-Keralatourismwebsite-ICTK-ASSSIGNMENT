@@ -1,0 +1,57 @@
+*{
+    padding-left: inherit;
+}
+.mymargin{
+    margin: 25px;
+
+}
+.home {
+    font-family: cursive;
+    color:darkgreen;
+   font-size: 40px;
+    text-align: center;
+    
+}
+.row-g-3{
+    float:left;
+    
+    
+    height: 25 cm;
+    width: 15cm;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+.col-md-6{
+    width: 500px;  
+    height: 50px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+.dflex{
+    align-items: flex-end;
+}
+.logo { 
+    height: 65px;
+    margin-left: 10%;
+    margin-top: 2px;
+}
+.h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ftr{
+ 
+    font-family: cursive;
+    color:darkgreen;
+   font-size:small;
+    text-align: center;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
