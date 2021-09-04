@@ -28,29 +28,31 @@
     
       <!-- form -->
     <center><h3>Login to your Account</h3></center>
-    <form action="#" class="login">
+    <form action="destination.html" class="login" onsubmit=" return val()">
     
     <div class="login-cont">
         <label > Email</label><br>
-        <input type="text" ">
+        <input type="email" id="mailid">
 <br>
     </div>
     <div class="login-cont">
         <label > Password</label>
         <br>
-        <input type="password" >
+        <input type="password" id="pswd" >
         <br>
     </div>
     <br>
     <div class="login-button"> 
-      <a href="#" class="btn btn-primary">Login</a>
+      <button id="submit">Login</button>
     </div>
   
     Need Account
     <br>
     <a href="signup.html"><b>Sign Up</b></a>
     </form>
+    <script src="valid.js"></script>
     </div>
     <center><footer><p class="ftr" color="green">Copyright@2021</p></footer></center>
-</body >
+
+  </body >
 </html>

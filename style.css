@@ -55,3 +55,59 @@
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
 }
+
+
+
+Skip to content
+Using Gmail with screen readers
+Meet
+Hangouts
+
+Conversations
+1.43 GB of 15 GB used
+Terms · Privacy · Programme Policies
+Last account activity: in 11 hours
+Details
+.form_control small{
+  visibility:hidden ;
+}
+
+.form_control.success input{
+  border-color: green;
+}
+.form_control.error input{
+  border-color: red;
+}
+.form_control.error small{
+  color: red;
+  visibility: visible;
+}
+
+.form_control .pswd_strength{
+  position: relative;
+  width: 30%; 
+   height: 20px; 
+  margin-top: 10px;
+  text-align: center; 
+  background: #f2f2f2;
+  display: none;
+}
+.form_control .pswd_strength span:nth-child(1){
+  position: relative;
+  font-size:13px;
+  color: #111;
+   z-index: 2; 
+  font-weight: 600;  
+}
+.form_control .pswd_strength span:nth-child(2){
+  position: absolute;
+  top:0px;
+  left: 0px; 
+   width: 50%; 
+  height: 100%; 
+   border-radius: 5px; 
+  z-index: 1; 
+   transition:all 300 ms ease-in-out; 
+}
+style.css
+Displaying javascript.txt.

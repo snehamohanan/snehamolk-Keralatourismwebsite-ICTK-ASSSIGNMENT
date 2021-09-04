@@ -32,17 +32,17 @@
        <div class ="col-lg-3"> </div>
       <!-- forms stars here -->
       <div class="col-lg-3 mymargin">
-        <form class="row-g-3">
+        <form  action ="destination.html" class="row-g-3" onsubmit=" return val() ">
           <div class="col-12">
             <label for="inputAddress" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" >
           </div><div class="col-12">
             <label for="inputAddress" class="form-label">Mobile number</label>
-            <input type="text" class="form-control" id="number" >
+            <input type="text" class="form-control" id="phone" >
           </div>
           <div class="col-12">
             <label for="inputAddress" class="form-label">Email Id</label>
-            <input type="text" class="form-control" id="mailid" >
+            <input type="email" class="form-control" id="mailid" >
           </div>
           <div class="col-12">
             <label for="inputAddress" class="form-label">Password</label>
@@ -50,19 +50,19 @@
           </div>
           <div class="col-12">
             <label for="inputAddress2" class="form-label">Retype Password</label>
-            <input type="text" class="form-control" id="ipswd" >
+            <input type="text" class="form-control" id="pswd2" >
           </div>
         
           <br>
           <div class="col-12">
             <br>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary" id="submit">Sign Up</button>
           </div>
         </form>
+        <script src="signupval.js"></script>
       
       </div>
       
-
       
 </body>
 </html>
